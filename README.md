@@ -4,7 +4,9 @@
 
 2. install modules
  > cd 'repo name'
+
  > npm install
+
  > npm run dev
 
 3. branch the repo
