@@ -10,7 +10,7 @@
  > npm run dev
 
 3. branch the repo
- > git branch 'branch-name'
+ > git branch branch-name
 
 
 # Technologies used
