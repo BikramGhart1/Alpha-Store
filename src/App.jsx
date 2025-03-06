@@ -1,12 +1,12 @@
 import './App.css'
-
+import Caraousel from './components/Caraousel'
 
 function App() {
 
   return (
-    <>
-      <p className='bg-red-500'>Hello</p>
-    </>
+   <>
+   <Caraousel/>
+   </>
   )
 }
 
