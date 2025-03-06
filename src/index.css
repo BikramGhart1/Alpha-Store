@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
-    --navbar-bg:#004581;
+.navbarImages{
+    @apply w-[35px]
 }
