@@ -19,6 +19,7 @@ export default function ShopByBrands() {
 
       </div>
       <p></p>
+      <p></p>
     </section>
   )
 }
