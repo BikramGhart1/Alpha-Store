@@ -17,6 +17,9 @@ export default function ShopByBrands() {
        <img src="/images/Rectangle 14.png" alt="" />
        <img src="/images/Rectangle 14.png" alt="" />
       </div>
+      <div>
+        <p>hello</p>
+      </div>
     </section>
   )
 }
