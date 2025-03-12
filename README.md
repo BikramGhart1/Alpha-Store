@@ -1,3 +1,7 @@
+# Demo 
+
+https://alpha-store.pages.dev/
+
 # Setup repo
 1. Clone the repo
  > git clone https://github.com/BikramGhart1/Alpha-Store.git
