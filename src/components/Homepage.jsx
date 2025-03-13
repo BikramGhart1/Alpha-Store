@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './partials/Navbar'
 import Carasoul from './partials/Carasoul'
 import ShopByBrands from './ShopByBrands'
+import Footer from './partials/Footer'
 
 export default function Homepage() {
   return (
@@ -9,6 +10,7 @@ export default function Homepage() {
       <Navbar/>
       <Carasoul/>
       <ShopByBrands/>
+      <Footer/>
     </div>
   )
 }
