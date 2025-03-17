@@ -21,3 +21,7 @@
 .productCartbuttons{
     @apply bg-button text-white px-2 py-1 rounded-md font-semibold w-[106px] hover:bg-navbar
 }
+
+.productRatingStar{
+    @apply hover:text-navbar
+}

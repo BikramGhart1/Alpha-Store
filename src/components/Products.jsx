@@ -9,11 +9,11 @@ const Product=()=>{
         <div className='flex flex-col overflow-hidden'>
             <p className='text-navbar text-2xl'>Apple iphone 16 Pro Max</p>
             <div className='text-button text-2xl'>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
+            <i className="fas fa-star productRatingStar"></i>
+            <i className="fas fa-star productRatingStar"></i>
+            <i className="fas fa-star productRatingStar"></i>
+            <i className="fas fa-star productRatingStar"></i>
+            <i className="far fa-star productRatingStar"></i>
             </div>
             <div className='flex flex-row justify-start gap-x-5'>
                 <p className='text-navbar'>NRS 2,12,499</p>
@@ -21,7 +21,7 @@ const Product=()=>{
             </div>
             <div className='flex flex-row justify-around'>
                 <button className='productCartbuttons'>Add to Cart</button>
-                <button className='productCartbuttons'><i class="far fa-heart"></i></button>
+                <button className='productCartbuttons'><i className="far fa-heart"></i></button>
             </div>
         </div>
     </div>

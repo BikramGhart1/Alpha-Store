@@ -3,6 +3,7 @@ import Navbar from './partials/Navbar'
 import Carasoul from './partials/Carasoul'
 import ShopByBrands from './ShopByBrands'
 import Products from './Products'
+import ShopeByCategories from './ShopeByCategories'
 
 export default function Homepage() {
   return (
@@ -11,6 +12,7 @@ export default function Homepage() {
       <Carasoul/>
       <ShopByBrands/>
       <Products/>
+      <ShopeByCategories/>
     </div>
   )
 }
