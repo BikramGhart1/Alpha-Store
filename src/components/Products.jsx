@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Product=()=>{
+export const Product=()=>{
     return <div className='flex flex-col pb-5 px-2 w-[245px] rounded-2xl border-cardBorderShadow border-2 relative '>
         <p className='absolute top-2 right-2 bg-cyan-300 opacity-90 px-3 rounded-md'>-3%</p>
         <div className=''>
@@ -29,7 +29,7 @@ const Product=()=>{
 
 export default function Products() {
   return (
-    <section className='section border-b-4 border-cardBorderShadow pb-10'>
+    <section className='section borderBottom pb-10'>
       <div className='flex flex-row justify-around my-14 text-2xl font-semibold'>
         <a href="#" className='productButtons'>New Arrivals</a>
         <a href="#" className='productButtons'>Sales</a>

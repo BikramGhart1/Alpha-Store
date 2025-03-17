@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <footer>
+        <footer className='bg-navbar flex flex-row text-white'>
             <div>
                 <div>
                     <div>
@@ -18,7 +18,16 @@ export default function Footer() {
                 </div>
             </div>
             <div>
-
+               <h2>Shop</h2>
+               <ul>
+                <li>Shop all</li>
+                <li>Shop all</li>
+                <li>Shop all</li>
+                <li>Shop all</li>
+                <li>Shop all</li>
+                <li>Shop all</li>
+                <li>Shop all</li>
+               </ul>
             </div>
         </footer>
     )
