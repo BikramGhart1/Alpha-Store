@@ -18,6 +18,7 @@ export default {
 
         footerBG:"#018ABD",
         footerIcon:"#004581",
+        footerTextHover: '#004581',
         
 
       }
