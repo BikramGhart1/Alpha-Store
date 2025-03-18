@@ -3,7 +3,7 @@ import Navbar from './partials/Navbar'
 import Carasoul from './partials/Carasoul'
 import ShopByBrands from './ShopByBrands'
 import Products from './Products'
-import ShopeByCategories from './ShopeByCategories'
+import ShopByCategories from './ShopByCategories'
 import HotPicks from './HotPicks'
 import PayingMethods from './PayingMethods'
 import Blogs from './Blogs'
@@ -17,7 +17,7 @@ export default function Homepage() {
       <Carasoul/>
       <ShopByBrands/>
       <Products/>
-      <ShopeByCategories/>
+      <ShopByCategories/>
       <SpecialOffers/>
       <HotPicks/>
       <Blogs/>
