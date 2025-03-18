@@ -15,12 +15,6 @@ export default {
         hover2:'#018ABD',
         cardBorderShadow:'#97CBDC',
         priceDiscountLabel:'#018ABD',
-
-        footerBG:"#018ABD",
-        footerIcon:"#004581",
-        footerTextHover: '#004581',
-        
-
       }
     },
   },
