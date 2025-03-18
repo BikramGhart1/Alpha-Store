@@ -8,8 +8,8 @@ export default function Navbar() {
                 <div className='h-full flex flex-row justify-center items-center'>
                     <img src="/images/logo (2).png" alt="logo" className='h-full mt-2 rounded-full' />
                 </div>
-                <div className='w-1/5 flex flex-row justify-between pl-4 p-2 pr-5 rounded-3xl bg-gray-400'>
-                    <input type="text" name="search" id="" placeholder='search' className='bg-transparent opacity-80 pl-2 w-full mr-1 pr-1 outline-none border-0 placeholder:text-white' />
+                <div className='w-1/5 flex flex-row justify-between pl-4 p-2 pr-5 rounded-3xl bg-[#97CBDC]'>
+                    <input type="text" name="search" id="" placeholder='Search...' className='bg-transparent opacity-80 pl-2 w-full mr-1 pr-1 outline-none border-0 placeholder:text-white' />
                     <img src="/images/Search.png" alt="search" className='navbarImages w-[28px]' />
                 </div>
                 <div className='w-[211px] flex flex-row justify-between items-center cursor-pointer'>
