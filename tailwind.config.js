@@ -15,8 +15,6 @@ export default {
         hover2:'#018ABD',
         cardBorderShadow:'#97CBDC',
         priceDiscountLabel:'#018ABD',
-        
-
       }
     },
   },

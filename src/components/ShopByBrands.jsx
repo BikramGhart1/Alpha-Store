@@ -25,28 +25,16 @@ export default function ShopByBrands() {
           View All Brands
         </button>
       </div>
-
-      <div className="overflow-hidden relative w-full">
-        <motion.div
-          className="flex space-x-6"
-          animate={{ x: ["0%", "-50%"] }}
-          transition={{ repeat: Infinity, duration: 12, ease: "linear" }}
-          style={{ display: "flex", whiteSpace: "nowrap" }}
-        >
-          {[...brands, ...brands].map((brand, index) => (
-            <div
-              key={index}
-              className="bg-[#003366] p-4 rounded-xl w-32 h-32 md:w-40 md:h-40 flex justify-center items-center shrink-0"
-            >
-              <img
-                src={brand.logo}
-                alt={brand.name}
-                className="w-full h-full object-contain"
-              />
-            </div>
-          ))}
-        </motion.div>
+      <div className='flex flex-row justify-between'>
+       <img src="/images/Rectangle 14.png" alt="" />
+       <img src="/images/Rectangle 14.png" alt="" />
+       <img src="/images/Rectangle 14.png" alt="" />
+       <img src="/images/Rectangle 14.png" alt="" />
+       <img src="/images/Rectangle 14.png" alt="" />
+       <img src="/images/Rectangle 14.png" alt="" />
       </div>
+      <p></p>
+      <p></p>
     </section>
   );
 }
