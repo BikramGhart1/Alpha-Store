@@ -17,7 +17,8 @@ export default {
         priceDiscountLabel:'#018ABD',
         
 
-      }
+      },
+      
     },
   },
   plugins: [],
