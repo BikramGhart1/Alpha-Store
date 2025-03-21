@@ -16,7 +16,7 @@ export default function Blogs() {
         <Blog/>
         <Blog/>
         <Blog/>
-      </div><p>just try</p>
+      </div><p>just tr it.</p>
     </section>
   )
 }
