@@ -1,10 +1,11 @@
 import React from 'react'
 
 export const Product=()=>{
-    return <div className='flex flex-col pb-5 px-2 w-[245px] rounded-2xl border-cardBorderShadow border-2 relative '>
+
+    return  <div className='flex flex-col w-[245px] pb-5 px-2 rounded-2xl border-cardBorderShadow border-2 relative '>
         <p className='absolute top-2 right-2 bg-cyan-300 opacity-90 px-3 rounded-md'>-3%</p>
         <div className=''>
-            <img src="/images/Rectangle 17.png" alt="product" />
+            <img src="/productimg/iphone.png" alt="product" />
         </div>
         <div className='flex flex-col overflow-hidden'>
             <p className='text-navbar text-2xl'>Apple iphone 16 Pro Max</p>
@@ -25,6 +26,9 @@ export const Product=()=>{
             </div>
         </div>
     </div>
+
+   
+
 }
 
 export default function Products() {

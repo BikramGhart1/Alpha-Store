@@ -1,8 +1,8 @@
 import './App.css'
-import Homepage from './components/Homepage'
-import Footer from './components/partials/Footer'
-import Header from './components/blog/header'
-import ProductDisplay from './components/blog/product display'
+import Homepage from './pages/Homepage'
+import Footer from './Universal/Footer'
+// import Header from './components/blog/header'
+// import ProductDisplay from './components/blog/product display'
 
 
 function App() {
@@ -11,9 +11,8 @@ function App() {
     <>
       <Homepage />
       {/* <Footer/> */}
-      <Header />
-      <Footer />
-      <ProductDisplay />
+      {/* <Header /> */}
+      {/* <ProductDisplay /> */}
       
 
 

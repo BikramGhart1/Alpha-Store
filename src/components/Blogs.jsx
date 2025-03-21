@@ -2,7 +2,7 @@ import React from 'react'
 
 const Blog=()=>{
     return <div className='flex flex-col gap-y-5'>
-            <img src="/images/Rectangle 69.png" alt="blog image" />
+            <img src="/blogimg/blog.png" alt="blog image" />
             <p className='text-lg'>Best Laptop to Buy in Nepal</p>
         
     </div>
@@ -16,7 +16,7 @@ export default function Blogs() {
         <Blog/>
         <Blog/>
         <Blog/>
-      </div><p>just try</p>
+      </div>
     </section>
   )
 }
