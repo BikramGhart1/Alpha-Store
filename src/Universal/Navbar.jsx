@@ -6,7 +6,7 @@ export default function Navbar() {
         <nav className='h-[138px] flex flex-col'>
             <div className='bg-navbar h-[69px] flex flex-row justify-around items-center'>
                 <div className='h-full flex flex-row justify-center items-center'>
-                    <img src="/images/logo (2).png" alt="logo" className='h-full mt-2 rounded-full' />
+                    <img src="/logoimg/logo (2).png" alt="logo" className='h-full mt-2 rounded-full' />
                 </div>
                 <div className='w-1/5 flex flex-row justify-between pl-4 p-2 pr-5 rounded-3xl bg-[#97CBDC]'>
                     <input type="text" name="search" id="" placeholder='Search...' className='bg-transparent opacity-80 pl-2 w-full mr-1 pr-1 outline-none border-0 placeholder:text-white' />
