@@ -35,3 +35,13 @@
 .borderBottom{
     @apply border-b-4 border-cardBorderShadow border-solid pb-4
 }
+/* Targets only the blog landing page carousel
+.blog-carousel .swiper {
+    height: 100% !important;
+    margin-left: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .blog-carousel .swiper-slide {
+    margin: 0 !important;
+  } */
