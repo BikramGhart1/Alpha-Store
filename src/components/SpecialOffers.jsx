@@ -10,11 +10,11 @@ const Offer = ({ image }) => {
 
 export default function SpecialOffers() {
     const offers = [
-        "/images/Rectangle 28.png",
-        "/images/Rectangle 28.png",
-        "/images/Rectangle 28.png",
-        "/images/Rectangle 28.png",
-        "/images/Rectangle 28.png"
+        "/specialoffer/specialoffer.png",
+        "/specialoffer/specialoffer.png",
+        "/specialoffer/specialoffer.png",
+        "/specialoffer/specialoffer.png",
+        "/specialoffer/specialoffer.png"
     ];
 
     return (

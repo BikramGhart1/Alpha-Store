@@ -2,14 +2,14 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const brands = [
-  { name: "Samsung", logo: "/images/samsung.png" },
-  { name: "Dell", logo: "/images/dell.png" },
-  { name: "Acer", logo: "/images/acer.png" },
-  { name: "Apple", logo: "/images/apple.png" },
-  { name: "Gigabyte", logo: "/images/gigabyte.png" },
-  { name: "ASUS", logo: "/images/asus.png" },
-  { name: "MSI", logo: "/images/msi.png" },
-  { name: "Lenovo", logo: "/images/lenovo.png" },
+  { name: "Samsung", logo: "/brandimg/samsung.png" },
+  { name: "Dell", logo: "/brandimg/dell.png" },
+  { name: "Acer", logo: "/brandimg/acer.png" },
+  { name: "Apple", logo: "/brandimg/apple.png" },
+  { name: "Gigabyte", logo: "/brandimg/gigabyte.png" },
+  { name: "ASUS", logo: "/brandimg/asus.png" },
+  { name: "MSI", logo: "/brandimg/msi.png" },
+  { name: "Lenovo", logo: "/brandimg/lenovo.png" },
 ];
 
 export default function ShopByBrands() {

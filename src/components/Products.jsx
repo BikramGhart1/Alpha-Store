@@ -5,7 +5,7 @@ export const Product = () => {
         <div className='flex flex-col pb-5 px-2 w-full sm:w-[245px] rounded-2xl border-cardBorderShadow border-2 relative'>
             <p className='absolute top-2 right-2 bg-cyan-300 opacity-90 px-3 rounded-md'>-3%</p>
             <div className='flex justify-center'>
-                <img src="/images/Rectangle 17.png" alt="product" className="w-full h-auto" />
+                <img src="/productimg/iphone.png" alt="product" className="w-full h-auto" />
             </div>
             <div className='flex flex-col overflow-hidden'>
                 <p className='text-navbar text-lg sm:text-2xl'>Apple iPhone 16 Pro Max</p>

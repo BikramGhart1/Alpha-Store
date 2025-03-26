@@ -6,7 +6,7 @@ export default function Navbar() {
     return (
         <nav className='h-auto flex flex-col bg-navbar'>
             <div className='h-[69px] flex items-center justify-around px-4 sm:px-8'>
-                <img src="/images/logo (2).png" alt="logo" className='h-12 rounded-full' />
+                <img src="/logoimg/logo (2).png" alt="logo" className='h-12 rounded-full' />
                 
                 <div className='flex w-2/3 sm:w-1/3 bg-[#97CBDC] rounded-3xl p-2'>
                     <input 

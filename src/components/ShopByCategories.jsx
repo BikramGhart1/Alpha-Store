@@ -1,12 +1,12 @@
 import React from "react";
 
 const categories = [
-  { name: "Smartphones", image: "/images/smartphones.png" },
-  { name: "Smartwatch", image: "/images/smartwatch.png" },
-  { name: "Earbuds", image: "/images/earbuds.png" },
-  { name: "Speakers", image: "/images/speakers.png" },
-  { name: "Drones", image: "/images/drones.png" },
-  { name: "Laptops", image: "/images/laptops.png" },
+  { name: "Smartphones", image: "/categoryimg/smartphones.png" },
+  { name: "Smartwatch", image: "/categoryimg/smartwatch.png" },
+  { name: "Earbuds", image: "/categoryimg/earbuds.png" },
+  { name: "Speakers", image: "/categoryimg/speakers.png" },
+  { name: "Drones", image: "/categoryimg/drones.png" },
+  { name: "Laptops", image: "/categoryimg/laptops.png" },
 ];
 
 export default function ShopByCategories() {

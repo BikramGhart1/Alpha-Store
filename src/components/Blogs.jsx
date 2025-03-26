@@ -3,7 +3,7 @@ import React from 'react';
 const Blog = () => {
     return (
         <div className='flex flex-col gap-y-3'>
-            <img src="/images/Rectangle 69.png" alt="blog image" className="w-full h-auto rounded-lg" />
+            <img src="/blogimg/blog.png" alt="blog image" className="w-full h-auto rounded-lg" />
             <p className='text-lg text-center'>Best Laptop to Buy in Nepal</p>
         </div>
     );
