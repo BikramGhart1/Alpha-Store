@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Homepage from './pages/Homepage'
 import Footer from './Universal/Footer'
 import BlogLandingPage from './pages/BlogPage/BlogLandingPage'
-
+import Watch from './pages/ProductPage/Watch';
 // import Header from './components/blog/header'
 // import ProductDisplay from './components/blog/product display'
 
@@ -30,6 +30,17 @@ function App() {
           element={
             <>
               <BlogLandingPage />
+              {/* <Footer /> */}
+            </>
+          } 
+        />
+
+        {/* Watch routing */}
+        <Route 
+          path="/watch" 
+          element={
+            <>
+              <Watch />
               {/* <Footer /> */}
             </>
           } 
