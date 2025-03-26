@@ -3,14 +3,14 @@ import { FaFacebookF, FaInstagram, FaTiktok, FaXTwitter } from "react-icons/fa6"
 const Footer = () => {
   return (
     <footer className="bg-[#0B3A70] text-white py-6 text-center md:text-left px-4 md:px-16">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         {/* Store Location */}
         <div>
           <h3 className="font-bold text-lg">Store Location</h3>
           <p className="mt-2">Dudhpati, Bhaktapur</p>
           <p>info@alphastore.com</p>
           <p>+977 9000000000</p>
-          <div className="flex gap-3 mt-3">
+          <div className="flex justify-center md:justify-start gap-3 mt-3">
             <FaFacebookF className="bg-[#1F5C9C] p-2 rounded-full text-3xl cursor-pointer" />
             <FaInstagram className="bg-[#1F5C9C] p-2 rounded-full text-3xl cursor-pointer" />
             <FaTiktok className="bg-[#1F5C9C] p-2 rounded-full text-3xl cursor-pointer" />
