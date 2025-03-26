@@ -1,24 +1,34 @@
-import React from 'react'
-
+import React, { useState } from 'react';
 
 export default function Navbar() {
+    const [menuOpen, setMenuOpen] = useState(false);
+
     return (
-        <nav className='h-[138px] flex flex-col'>
-            <div className='bg-navbar h-[69px] flex flex-row justify-around items-center'>
-                <div className='h-full flex flex-row justify-center items-center'>
-                    <img src="/images/logo (2).png" alt="logo" className='h-full mt-2 rounded-full' />
+        <nav className='h-auto flex flex-col bg-navbar'>
+            <div className='h-[69px] flex items-center justify-around px-4 sm:px-8'>
+                <img src="/images/logo (2).png" alt="logo" className='h-12 rounded-full' />
+                
+                <div className='flex w-2/3 sm:w-1/3 bg-[#97CBDC] rounded-3xl p-2'>
+                    <input 
+                        type="text" 
+                        placeholder='Search...' 
+                        className='w-full bg-transparent text-white placeholder:text-white pl-2 outline-none'
+                    />
+                    <img src="/images/Search.png" alt="search" className='w-6' />
                 </div>
-                <div className='w-1/5 flex flex-row justify-between pl-4 p-2 pr-5 rounded-3xl bg-[#97CBDC]'>
-                    <input type="text" name="search" id="" placeholder='Search...' className='bg-transparent opacity-80 pl-2 w-full mr-1 pr-1 outline-none border-0 placeholder:text-white' />
-                    <img src="/images/Search.png" alt="search" className='navbarImages w-[28px]' />
+                
+                <div className='hidden sm:flex gap-4'>
+                    <img src="/images/Users.png" alt="users" className='w-6' />
+                    <img src="/images/Heart.png" alt="heart" className='w-6' />
+                    <img src="/images/Shopping-cart.png" alt="cart" className='w-6' />
                 </div>
-                <div className='w-[211px] flex flex-row justify-between items-center cursor-pointer'>
-                    <img src="/images/Users.png" alt="users" className='navbarImages' />
-                    <img src="/images/Heart.png" alt="heart" className='navbarImages' />
-                    <img src="/images/Shopping-cart.png" alt="shopping cart" className='navbarImages' />
-                </div>
+                
+                <button className='sm:hidden' onClick={() => setMenuOpen(!menuOpen)}>
+                    <img src='/images/menu-icon.png' alt='menu' className='w-8' />
+                </button>
             </div>
-            <div className='flex justify-around w-4/5 m-auto bg-navbar p-2 text-[#F9FCFF] font-semibold font-sans'>
+            
+            <div className={`flex flex-col sm:flex-row justify-around text-white font-semibold transition-all ${menuOpen ? 'block' : 'hidden'} sm:flex`}>
                 <a href='/'>Laptops</a>
                 <a href='/'>Smartphones</a>
                 <a href='/'>Smartwatches</a>
@@ -27,5 +37,5 @@ export default function Navbar() {
                 <a href='/'>PCs</a>
             </div>
         </nav>
-    )
+    );
 }

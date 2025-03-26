@@ -13,7 +13,7 @@ export default function ShopByCategories() {
   return (
     <section className="section px-5">
       <p className="text-3xl font-semibold text-black mb-6">Shop By Categories</p>
-      <div className="grid grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
         {categories.map((category, index) => (
           <div
             key={index}
